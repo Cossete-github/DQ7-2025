@@ -8,11 +8,41 @@
             margin-top: 16px;
             margin-left: 16px;
         }
-
         .video-container {
             width: 320px;
             height: 180px;
             display: inline-block;
+        }
+        .table {
+            width: 100%;
+            max-width: 640px;
+            margin-bottom: 1rem;
+            vertical-align: top;
+        }
+        .table > :not(caption) > * > * {
+            padding: 0.5rem 0.5rem;
+        }
+        .table > tbody {
+             vertical-align: inherit;
+        }
+        .table > thead {
+             vertical-align: bottom;
+        }
+        table {
+          caption-side: bottom;
+          border-collapse: collapse;
+        }
+        thead,
+        tbody,
+        tfoot,
+        tr,
+        td,
+        th {
+          border-color: inherit;
+          border-style: solid;
+          border-width: 0;
+          border-bottom: 1px solid gray;
+          text-align:left;
         }
     </style>
 </head>
@@ -83,7 +113,63 @@
             </div>
         </div>
         <hr />
-        <div class=" container">
+        <div class="container">
+            <b>参加者一覧</b>
+            <p>新人<p>
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>お名前</th>
+                            <th>配信URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>しゃり</td>
+                            <td><a href="https://www.twitch.tv/shari6">https://www.twitch.tv/shari6</a></td>
+                        </tr>
+                        <tr>
+                            <td>とーま</td>
+                            <td><a href="https://www.youtube.com/@tomanico334">https://www.youtube.com/@tomanico334</a></td>
+                        </tr>
+                        <tr>
+                            <td>ぽん</td>
+                            <td><a href="https://www.youtube.com/@pon_gamech">https://www.youtube.com/@pon_gamech</a></td>
+                        </tr>
+                        <tr>
+                            <td>香歌</td>
+                            <td><a href="https://www.youtube.com/@kyo_ka_s">https://www.youtube.com/@kyo_ka_s</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="padding-top:32px;">シニア<p>
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>お名前</th>
+                            <th>配信URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ウルポ</td>
+                            <td><a href="https://www.youtube.com/@ulpo2525">https://www.youtube.com/@ulpo2525</a></td>
+                        </tr>
+                        <tr>
+                            <td>骨折</td>
+                            <td><a href="https://www.youtube.com/@doranana_">https://www.youtube.com/@doranana_</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        </div>
+        <hr />
+        <div class="container">
             <b>よくありそうな質問</b>
             <div class="container">
                 <div class="container">
@@ -132,7 +218,7 @@
             <div class="container">
                 <b>開催日</b>
                 <div class="container">
-                    <p>・<span style="color:red;">(8月3日更新)</span>新人戦の<span style="color:red;">翌週の土曜日(9/6)</span>を予定</p>
+                    <p>・<span style="color:red;">(8月8日更新)</span>新人戦の<span style="color:red;">翌週の日曜日(9/7)</span>を予定</p>
                 </div>
                 <b>参加資格</b>
                 <div class="container">
@@ -160,10 +246,11 @@
         </div>
     </div>
     <footer style="position:sticky;margin-top:24px;bottom:0px;height:24px;width:100%;text-align:center;border-top:2px solid black;background-color:white;">
-        最終更新: 2025/08/03
+        最終更新: 2025/08/08
     </footer>
 </body>
 </html>
+
 
 
 
